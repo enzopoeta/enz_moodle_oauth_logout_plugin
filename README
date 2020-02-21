@@ -1,0 +1,25 @@
+Hello moodle user,
+
+In the instructions below, MOODLE_HOME is the path to where your Moodle is
+deployed in your server.
+
+To install this plugin:
+
+1- Upload/unpack everything under:
+MOODLE_HOME/auth/enzoauthlogout
+
+2- Add this entry to your config.php:
+$CFG->oauthlogoutendpoint = <<OAUTH LOGOUT ENDPOINT WITH ALL THE NECESSARY PARAMETERS>>
+
+
+3- Login to Moodle with your admin account.
+
+4- Go to:
+Site Administration --> Plugins --> Authentication --> Manage Authentication
+
+5- Enable "Enzo wonderful oauth logout plugin".
+
+6- Save changes
+
+7- Try it out!
+
